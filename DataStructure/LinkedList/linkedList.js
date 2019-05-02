@@ -62,7 +62,6 @@ LinkedList.prototype.deleteAt = function(position) {
     }
     let temp = currentNode.next.next; 
     currentNode.next=temp;
-    this.head = currentNode
     this.size--;
     }
 }
